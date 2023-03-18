@@ -1,0 +1,96 @@
+body{
+    position: absolute;
+    border: solid black;
+    border-radius: 20px;
+    width: 350px;
+    height: 824px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my-header{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50px;
+}
+.my-header .may-input-add{
+    display: flex;
+    flex-wrap: wrap;
+}
+#new-task-input{
+    position: absolute;
+    height: 48px;
+    border: none;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius:  10px;
+    width: 186px;
+    background:rgba(38, 28, 39, 0.877) ;
+    color: white;
+
+}
+#new-task-submit{
+    position: absolute;
+    background:rgba(38, 28, 39, 0.877);
+    color: white;
+    border: none;
+    border-top-right-radius:  10px;
+    border-bottom-right-radius:  10px;
+    height: 50px;
+    left: 190px; 
+}
+.my-main{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.my-main .task-list .task{
+    display: flex;
+    flex-wrap: wrap;
+}
+.my-main .task-list .task .action{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.my-main .task-list .task .action .edit{
+    border: none;
+    background:rgba(38, 28, 39, 0.877) ;
+    color:white;
+    height: 40px;
+
+}
+.my-main .task-list .task .action .delete{
+    border: none;
+    background:rgba(38, 28, 39, 0.877) ;
+    color:white;
+    height: 40px;
+    border-top-right-radius:  10px;
+    border-bottom-right-radius:  10px;
+}
+.my-main .task-list .task .content .text{
+    border: none;
+    background:rgba(38, 28, 39, 0.877) ;
+    color:white;
+    height: 38px;
+    border-top-left-radius:  10px;
+    border-bottom-left-radius:  10px;
+}
+.my-main .task-list .task .action .edit:hover{
+    border: none;
+    background:rgba(38, 28, 39, 0.877) ;
+    color:palevioletred;
+    height: 40px;
+}
+.my-main .task-list .task .action .delete:hover{
+    border: none;
+    background:rgba(38, 28, 39, 0.877) ;
+    color:palevioletred;
+    height: 40px;
+    border-top-right-radius:  10px;
+    border-bottom-right-radius:  10px;
+}
+#new-task-submit:hover{
+    color: palevioletred;
+}
